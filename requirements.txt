@@ -7,3 +7,5 @@ langchain-text-splitters
 langchain-google-genai
 faiss-cpu
 python-multipart
+streamlit
+requests
