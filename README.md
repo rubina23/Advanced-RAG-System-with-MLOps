@@ -61,3 +61,17 @@ streamlit run frontend.py
 
 ```
 The Chat UI will open in your default browser.
+
+
+## 🏗️ Project Architecture
+Document Ingestion: PDF is uploaded via Streamlit and sent to the FastAPI endpoint.
+
+- Processing: The document is split into manageable chunks using LangChain's text splitters.
+
+- Embedding & Storage: Chunks are converted into vector embeddings and stored in FAISS memory.
+
+- Retrieval: User queries are matched against the FAISS index to find the most relevant context.
+
+- Generation: The context and query are passed to the LLM (Gemini) via LCEL to generate a highly accurate, grounded response.
+
+
