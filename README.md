@@ -65,14 +65,10 @@ The Chat UI will open in your default browser.
 
 
 ## 🏗️ Project Architecture
-Document Ingestion: PDF is uploaded via Streamlit and sent to the FastAPI endpoint.
-
-- Processing: The document is split into manageable chunks using LangChain's text splitters.
-
-- Embedding & Storage: Chunks are converted into vector embeddings and stored in FAISS memory.
-
-- Retrieval: User queries are matched against the FAISS index to find the most relevant context.
-
-- Generation: The context and query are passed to the LLM (Gemini) via LCEL to generate a highly accurate, grounded response.
-
-
+DocuMind utilizes a Retrieval-Augmented Generation (RAG) pipeline:
+- Ingestion: PDF parsing via PyPDFLoader.
+- Processing: Recursive text splitting for optimized context retrieval.
+- Vectorization: FAISS indexing for fast semantic search.
+- Generation: LCEL-based chain using Google Gemini for accurate, context-aware responses.
+  
+Developed as part of an AI engineering journey focusing on Healthcare Informatics and GenAI solutions.
