@@ -1,19 +1,20 @@
 # 📄 DocuMind: Intelligent Document Assistant
 
-An Enterprise-Level AI Document Assistant powered by Modern LCEL Architecture (LangChain), FastAPI, and Streamlit. This system allows users to upload complex PDF documents (like research papers) and interact with them through a context-aware AI chatbot.
+DocuMind is an AI-powered document intelligence platform designed to analyze, summarize, and query complex documents instantly. Whether you are dealing with clinical reports, research papers, or technical documentation, DocuMind provides precise, evidence-based insights through a conversational interface.
 
-### 🌐 Live Links
+### 🌐 Live Access
 * **Frontend (User Interface):** https://advanced-rag-system-with-mlops.streamlit.app/ 
 * **Backend API (Swagger UI):** https://advanced-rag-system-with-mlops.onrender.com/docs 
 
 ---
 
 ## ✨ Key Features
-* **Modern RAG Architecture:** Built using LangChain's latest Expression Language (LCEL) for robust data pipelines.
-* **Smart Document Processing:** Automatically parses, chunks, and vectorizes large PDF documents.
+* **Modern RAG Architecture:** Built using LangChain (LCEL), FastAPI, and Google Gemini for high-performance and scalability.
+* **Smart Analysis:** Upload research papers or clinical reports to get instant summaries and clear answers.
 * **High-Performance Vector DB:** Utilizes **FAISS** for lightning-fast semantic similarity search and context retrieval.
-* **Interactive UI:** A ChatGPT-like conversational interface built with **Streamlit** for seamless user experience.
+* **Context-Aware Q&A:** Get precise, evidence-based responses grounded in your uploaded documents.
 * **RESTful API:** decoupled client-server architecture with a fully documented backend using **FastAPI**.
+* **Healthcare Ready:** Specialized in extracting critical patient data, symptoms, and medical findings from clinical notes.
 
 ---
 
@@ -24,7 +25,7 @@ An Enterprise-Level AI Document Assistant powered by Modern LCEL Architecture (L
 * **Frontend:** Streamlit, Requests
 * **Vector Database:** FAISS (Facebook AI Similarity Search)
 * **Deployment:** Render (Backend), Streamlit Community Cloud (Frontend)
-
+  
 ---
 
 ## 🚀 How to Run Locally
