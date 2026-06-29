@@ -5,8 +5,8 @@ import requests
 API_URL = "https://advanced-rag-system-with-mlops.onrender.com"
 
 # Setup page title & layout
-st.set_page_config(page_title="DocuMind AI", page_icon="📄", layout="centered")
-st.title("📄 Advanced RAG Document Assistant")
+st.set_page_config(page_title="DocuMind", page_icon="📄", layout="centered")
+st.title("📄 DocuMind: Intelligent Clinical & Research Assistant")
 st.markdown("Upload a research paper or document and ask anything!")
 
 # Docs Upload section
