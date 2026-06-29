@@ -1,4 +1,4 @@
-# 📄 Advanced RAG System with MLOps
+# 📄 DocuMind: Intelligent Document Assistant
 
 An Enterprise-Level AI Document Assistant powered by Modern LCEL Architecture (LangChain), FastAPI, and Streamlit. This system allows users to upload complex PDF documents (like research papers) and interact with them through a context-aware AI chatbot.
 
