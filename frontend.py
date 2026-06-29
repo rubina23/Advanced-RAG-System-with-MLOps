@@ -6,8 +6,24 @@ API_URL = "https://advanced-rag-system-with-mlops.onrender.com"
 
 # Setup page title & layout
 st.set_page_config(page_title="DocuMind", page_icon="📄", layout="centered")
-st.title("📄 DocuMind: Intelligent Clinical & Research Assistant")
-st.markdown("Upload a research paper or document and ask anything!")
+
+# st.title("📄 DocuMind: Intelligent Clinical & Research Assistant")
+# st.markdown("Upload a research paper or document and ask anything!")
+
+# Setup page title & layout
+# st.set_page_config(page_title="DocuMind AI", page_icon="📄", layout="centered")
+
+# Professional Title and Description
+st.title("📄 DocuMind: Intelligent Document Assistant")
+st.markdown("""
+Extracting insights from long, complex documents is now effortless. Simply upload your file and start querying—
+
+**What you can do with DocuMind:**
+- 📝 **Instant Summarization:** Get the core essence of long research papers or medical reports in seconds.
+- 🔍 **Precise Q&A:** Ask specific questions and get accurate, context-aware answers from your document.
+- 🏥 **Clinical Insights:** Extract critical patient data, symptoms, and diagnoses from clinical notes.
+- 💡 **Simplified Explanations:** Break down complex technical or medical terminology into easy-to-understand language.
+""")
 
 # Docs Upload section
 with st.sidebar:
